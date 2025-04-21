@@ -62,10 +62,10 @@ public class Transition : MonoBehaviour
     {
         StartCoroutine(RestartCoroutine());
     }
-
-    public void NextLevel()
+    
+    public void GoToNextLevel()
     {
-        
+        StartCoroutine(NextLevelCoroutine());
     }
 
     public void Exit()
